@@ -1,0 +1,120 @@
+/* 
+    Document   : site
+    Created on : 24/11/2012, 14:09:04
+    Author     : PC
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+@font-face {
+    font-family: 'Guisha';
+    src: url('../../../fonts/gisha.ttf');
+}
+*{
+    margin: 0px;
+    background: transparent;
+}
+root { 
+    display: block;
+}
+
+h2{
+    font-size: 1.5em;
+    color: #094F69;
+    font-weight: normal;
+}
+
+body{
+    width: 100%;
+    min-height: 100%;
+    position: absolute;
+      
+    background: url('../../../imgs/fundo_home.png') repeat-x fixed #D4DCE1;
+    text-align: center;
+/*    font-family: 'Guisha';*/
+    font-family: Arial,Helvetica,sans-serif;
+}
+#content{
+    margin: 0px auto;
+    width: 1024px;
+    color: #094F69;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:visited{
+    
+}
+a:hover{
+    text-decoration: underline;
+}
+#menu_inf{
+    position: fixed;
+    width: 100%;
+    height: 100px;
+    bottom: 0px;
+    left: 0px;
+    background: #060606;
+}
+span{
+    margin: 0px;
+    padding: 0px;
+}
+
+/*CONTEÚDO DO MENU SUPERIOR 1024+ */
+
+
+.laranja{
+    color: #E08513 !important;
+    text-shadow: none;
+    text-shadow: #E4A76D 0.0em 0.0em 0.1em !important;
+}
+
+/*CONTEÚDO DO MENU SUPERIOR 1024+ */
+.bot_face{
+    width: 245px;
+    height: 50px;
+    text-align: left;
+    /*background: red;*/
+    /*margin-bottom: 500px;*/
+    float: right;
+}
+.bot_face div{
+    float: left;
+}
+
+.bot_face img{
+    text-align: left;
+    float: left;
+    margin-right:  7px;
+}
+
+.bot_face a{
+    color: #B1CAD6;
+    text-decoration: none;
+    font-size: 14px;
+}
+.bot_face a:hover{
+    color: #B1CAD6;
+    text-decoration: underline;
+}
+.bot_face a:visited{
+    color: #B1CAD6;
+    text-decoration: underline;
+}
+
+.bot_face span{
+    font-size: 18px !important;
+    color: #48BAE4;
+    
+}
+.i_face{
+    padding-top: 3px;
+    width: 35px;
+}
+.t_face{
+    margin-left: 5px;
+    width: 205px;
+}

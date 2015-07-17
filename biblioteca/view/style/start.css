@@ -1,0 +1,80 @@
+/* 
+    Document   : start
+    Created on : 15/12/2012, 20:42:10
+    Author     : PC
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+.colun{
+    float: left;
+}
+#col_user{
+    width: 200px;
+    min-height: 400px;
+    background: dodgerblue;
+}
+#col_mid{
+    width:574px;
+    min-height: 400px;
+    background: #FFF;
+    padding-bottom: 100px;
+    overflow: no-display scroll;
+}
+#col_alertas{
+    width: 250px;
+    min-height: 400px;
+    background: gray;
+}
+
+.news_content{
+    /*display: none;*/
+    width: 80%;
+    min-height: 30px;
+    /*background: #aaa;*/
+    margin-top: 15px;
+    margin-left: 10px;
+    text-align: left;
+    
+    border-top: 2px #1678fc solid;
+}
+.exclude{
+    display: none;
+}
+.red{
+    color: red;
+}
+.yellow{
+    color: blue;
+}
+.green{
+    color: green;
+}
+
+#popmenu{
+    display: none;
+    position: absolute;
+    z-index: 100;
+    width: 100px;
+    height: 200px;
+    background: #A7301F;
+    border: 3px solid aqua;
+}
+.verde{
+    background: #CFEA93 !important;
+}
+
+.t_class{
+    text-align: left;
+    margin-top: 50px;
+    font-size: 18px;
+}
+.s_class{
+    text-align: left;
+    margin-top: 20px;
+    font-size: 14px;
+}

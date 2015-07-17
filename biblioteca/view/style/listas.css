@@ -1,0 +1,32 @@
+#col_mid{
+    text-align: left;
+}
+#col_mid div{
+/*    float: left;
+    width: 80%;*/
+}
+#resultado{
+    background: red;
+    display: none;
+}
+.box_input{
+    /*padding-left: 7px;*/
+    margin-left: 7px;
+    margin-top: 5px;    
+}
+.lista{
+    background: #1678fc;
+    color: #FFF;
+    
+}
+.listas{
+    border: #1678fc dashed 1px;
+    width: 80%;
+    height:  available;
+}
+.select_time{
+    
+}
+.verde{
+    background: green !important;
+}

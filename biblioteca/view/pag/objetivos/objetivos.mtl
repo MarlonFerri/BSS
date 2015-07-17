@@ -1,0 +1,23 @@
+<div class="colun" id="col_mid">
+    <div id="d1"></div>
+    <div id="d2"></div>
+    <div id="d3"></div>
+    <div id="d4">a<br>a<br>a<br>a<br>a<br>a<br><br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br></div>
+    <div id="d5"></div>
+    <div id="d6"></div>
+    <div id="d7"></div>
+    <div id="d8"></div>
+    
+</div>
+<div class="colun" id="col_alertas"></div>
+<div id="menu_inf">
+    <ul>
+        <li><a href="<?php echo URL;?>/start/<?php echo $this->user_dados->id_user; ?>/">Home</a></li>
+        <li><a href="<?php echo URL;?>/listas/<?php echo $this->user_dados->id_user; ?>/">Listas de tarefas</a></li>
+        <li><a href="<?php echo URL;?>/objetivos/<?php echo $this->user_dados->id_user; ?>/">Objetivos e metas</a></li>
+    </ul>
+    
+</div>
+<div class="men_a" id="m1"><img src="<?php echo URL;?>/imgs/fechar.png">m1<br><input class="c_men_a" name="cm_1" type="checkbox">check</div>
+<div class="men_a" id="m2">m2<br><input class="c_men_a" name="cm_2" type="checkbox">check<img src="<?php echo URL;?>/imgs/fechar.png"></div>
+<div class="men_a" id="m3">m3<br><input class="c_men_a" name="cm_3" type="checkbox">check<img src="<?php echo URL;?>/imgs/fechar.png"></div>

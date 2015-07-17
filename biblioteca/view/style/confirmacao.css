@@ -1,0 +1,16 @@
+#mid_home a{
+    font-size: 14px;
+    color: #72D0F2;
+    text-shadow: 1px 1px 1px #0A4A63 !important;
+    text-decoration: none;
+}
+
+#mid_home a:hover{
+    text-decoration: underline;
+}
+
+#mid_home a{
+    color: #72D0F2;
+    text-shadow: 1px 1px 1px #0A4A63 !important;
+    text-decoration: none;
+}

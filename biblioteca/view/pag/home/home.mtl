@@ -1,0 +1,161 @@
+<div id="logo_top">
+    <img src="<?php echo URL; ?>/imgs/logo6.png" alt="Logo" />
+    <h2>Acima das nuvens h&aacute; sempre um c&eacute;u azul</h2>
+</div><!-- Final div logo_top -->
+
+<div id="menus_top">
+    <div id="texto_top">
+        <p>
+            A BlueSky proporciona a <span class="laranja">voc&ecirc;</span> um m&eacute;todo inovador
+        </p>
+        <p>
+            para alcan&ccedil;ar seus maiores <span class="laranja">sonhos</span>.
+        </p>
+    </div>
+    <div id="login_top">
+        <form name="form_login" method="POST" id="form_login" action="<?php echo URL ?>/login_user">
+            <div>
+                <input id="login" name="login_bss" title="text" value="e-mail">
+                <p>Sem conta? <a  class="laranja" href="registro_user">Registre-se!</a></p>
+            </div>
+            <div class="p_l_10">
+                <input id="senha" name="senha_bss" type="password" value=""> 
+                <input id="senha_temp" name="senha_temp" title="text" value="senha">
+                <input class="b_ok" type="submit" value="ok">
+                <p>Precisa de <a href="suporte">ajuda</a>?</p>
+            </div>
+        </form>
+    </div>
+</div><!-- Final div menus_top -->
+
+<div id="painel">
+    <div id="painel_left">
+        <nav><a  id="nav_left"><img class="move_painel" src="imgs/seta_esquerda.png"></a></nav>
+    </div>
+    <div class="content_painel">
+<!--        <div class="nav_painel" id="nav_p1">
+            <div class="bloco_1 espaco_painel" id="b1_p1">
+                <img class="img_conteudo" src="imgs/home/box1_sem_transp.png">                
+                <div class="nav_img">
+                    <img class="nuvem_box" src="imgs/protect_box.png">
+                </div>
+            </div>
+            
+            <div class="bloco_1 espaco_painel" id="b2_p1">
+                <img class="img_conteudo" src="imgs/home/box2_sem_transp.png">                
+                <div class="nav_img">
+                    <img class="nuvem_box" src="imgs/protect_box.png">
+                </div>
+            </div>
+            
+            <div class="bloco_1" id="b3_p1">
+                <img class="img_conteudo" src="imgs/home/box3_sem_transp.png">                
+                <div class="nav_img">
+                    <img class="nuvem_box" src="imgs/protect_box.png">
+                </div>
+            </div>
+
+            <div class="bloco_1 espaco_painel" id="b4_p1"><img class="img_conteudo" src="imgs/home/box4_sem_transp.png">                
+                <div class="nav_img">
+                    <img class="nuvem_box" src="imgs/protect_box.png">
+                </div>
+            </div>
+            <div class="bloco_1 espaco_painel" id="b5_p1"><img class="img_conteudo" src="imgs/home/box5_sem_transp.png">                
+                <div class="nav_img">
+                    <img class="nuvem_box" src="imgs/protect_box.png">
+                </div>
+            </div>
+            <div class="bloco_1" id="b6_p1"><img class="img_conteudo" src="imgs/home/box6_sem_transp.png">                
+                <div class="nav_img">
+                    <img class="nuvem_box" src="imgs/protect_box.png">
+                </div>
+            </div>
+
+            <div class="bloco_2" id="b7_p1"><img class="img_conteudo" src="imgs/home/big_box_sem_transp.png">                
+                <div class="nav_img">
+                    <img class="nuvem_box" src="imgs/big_protect_box.png">
+                </div>
+            </div>
+        </div>
+
+        <div class="nav_painel" id="nav_p2">
+            <div class="bloco_1 espaco_painel" id="b1_p2"></div>
+            <div class="bloco_1 espaco_painel" id="b2_p2"></div>
+            <div class="bloco_1" id="b3_p2"></div>
+
+            <div class="bloco_1 espaco_painel" id="b4_p2"></div>
+            <div class="bloco_1 espaco_painel" id="b5_p2"></div>
+            <div class="bloco_1" id="b6_p2"></div>
+
+            <div class="bloco_2" id="b7_p2"></div>
+        </div>-->
+        <?php echo $this->mosaico;?>
+        
+        <nav class="nav_painel" id="nav_box">
+            <div class="content_box" >
+                <div class="mosaico_link"><img src="imgs/mosaico_small.png"> <p>Mosaico</p></div>
+                <div class="box_enter"></div>
+            </div>
+        </nav>
+    </div><!-- Final div de contents -->
+
+    <div id="painel_right">
+        <nav><a  id="nav_right"><img class="move_painel" src="imgs/seta_direita.png"></a></nav>
+    </div>
+</div><!-- Final div painel -->
+
+<div id="menus_bot">
+    <div class="content_menu_bot">
+        <h2 class="laranja">BlueSky to Smile</h2>
+        <nav>
+            <a href="">Quem somos</a></br>
+            <a href="">O Programa</a></br>
+            <a href="">Trabalhe conosco</a></br>
+            <a href="">News</a></br>
+        </nav>
+    </div>
+    <div class="content_menu_bot">
+        <h2 class="laranja">Voc&ecirc;</h2>
+        <nav>
+            <a href="<?php echo URL ?>/blog">Blog</a></br>
+            <a href="">Twitter</a></br>
+            <a href="">Facebook</a></br>
+            <a href="">Desenvolvedores</a></br>
+        </nav>
+    </div>
+    <div class="content_menu_bot">
+        <h2 class="laranja">Suporte</h2>
+        <nav>
+            <a href="">Contato</a></br>
+            <a href="">Termos e privacidade</a></br>
+            <a href=""></a></br>
+            <a href=""></a></br>
+        </nav>
+    </div>
+</div><!-- Final div menus_bot -->
+<div id="sociais_bot">
+    <div class="bot_face">
+
+        <a href="http://www.facebook.com.br/BlueSkyToSmile" target="blank">
+            <div class="i_face"><img src="imgs/face_small.png"></div>
+            <!--<img src="imgs/face_small.png">-->
+            <div class="t_face">
+                <span>Saiba mais tamb&eacute;m pelo</span>
+                facebook.com/BlueSkyToSmile
+            </div>
+        </a>
+
+    </div>
+    <div class="bot_face">
+
+        <a href="https://www.twitter.com/BlueSkytoSmile" target="blank">
+            <div class="i_face"><img src="imgs/twitter_small.png"></div>
+            <!--<img src="imgs/face_small.png">-->
+            <div class="t_face">
+                <span>Ou pela nossa p&aacute;gina no</span>
+                twitter.com/BlueSkytoSmile
+            </div>
+        </a>
+
+    </div>
+</div>

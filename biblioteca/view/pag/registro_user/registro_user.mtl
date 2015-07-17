@@ -1,0 +1,77 @@
+<div id="top_home">        
+    <div ><img src="imgs/logo5.png"></div>
+    <div><p>O momento para realizar os seus sonhos est&aacute; pr&oacute;ximo.<br>
+            Registre-se e fique por dentro de todas as &uacute;ltimas novidades!</p></div>
+</div>
+
+
+<div id="mid_home">
+    <form action="registro_user/registrar" method="post">
+        <div id="enters">
+
+            <input type="text" class="input_cadastro" name="nome_reg" id="nome_reg" value="Nome Completo"><br>
+            <input type="text" class="input_cadastro" name="email_reg" id="email_reg" value="E-mail">
+            <input type="text" class="input_cadastro" name="email_c_reg" id="email_c_reg" value="Confirme E-mail"><br>
+            <input type="password" class="input_cadastro" name="senha_reg" id="senha_reg" value="">
+            <input type="text" class="input_cadastro" name="senha_reg" id="senha_reg_temp" value="Senha">
+            <input type="password" class="input_cadastro" name="senha_c_reg" id="senha_c_reg" value="">
+            <input type="text" class="input_cadastro" name="senha_c_reg" id="senha_c_reg_temp" value="Confirme Senha">
+
+            <input type="hidden" id="nome_hidden" value="off">
+            <input type="hidden" id="login1_hidden" value="off">
+            <input type="hidden" id="login2_hidden" value="off">
+            <input type="hidden" id="senha1_hidden" value="off">
+            <input type="hidden" id="senha2_hidden" value="off">
+            <!--<input type="hidden" id="check_re" value="off">-->
+        </div>
+        <div id="returns">
+            <div class="returns" id="re_nome_reg"></div>
+            <div class="returns" id="re_email_reg"></div>
+            <div class="returns" id="re_senha_reg"></div>
+        </div>
+        <div id="confirms">
+
+            <input type="submit" class="botao_d" id="b_registrar" disabled="true" value="Enviar Cadastro"><br>
+            <input type="checkbox" id="check_reg"><span> Aceito os </span><a href="termos.pdf" rel="shadowbox[]">termos de uso</a>
+        </div>
+    </form>
+</div>
+
+
+<div id="bot_home">
+    <div class="bot_1"><div>
+            <h3>Colabora&ccedil;&atilde;o em grupo <span>/</span></h3>
+            <p>Compartilhe e organize seus objetivos<br>
+                com a sua rede, amigos e familiares.</p></div>
+        <img src="imgs/social_small.png"/>
+    </div>
+    <div class="space_bot"></div>
+
+    <div class="bot_2">
+        <div>
+            <h3>Planejamento Financeiro <span>/</span></h3>
+            <p>Organize o seu balan&ccedil;o patrimonial<br>
+                com ferramentas completas.</p></div>
+        <img src="imgs/graphic_small.png"/>
+    </div>
+    <div class="space_bot"></div>
+
+    <div class="bot_3"><div>
+            <h3>Agenda Virtual <span>/</span></h3>
+            <p>Controle os seus objetivos e metas<br>
+                de uma forma din&acirc;mica e simples.</p></div>
+        <img src="imgs/clock_small.png"/>
+    </div>
+</div>
+<div id="bot_face">
+
+    <a href="http://www.facebook.com.br/BlueSkyToSmile" target="blank">
+        <div id="i_face"><img src="imgs/face_small.png"></div>
+        <!--<img src="imgs/face_small.png">-->
+        <div id="t_face">
+        <span>Saiba mais tamb&eacute;m pelo</span>
+        facebook.com/BlueSkyToSmile
+        </div>
+    </a>
+
+</div>

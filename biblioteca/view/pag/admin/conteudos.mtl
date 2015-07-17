@@ -1,0 +1,87 @@
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<nav>
+    <a  class="b_add_conteudo"><img src="../../imgs/icons/add.png"> Adicionar conte&uacute;do a <pag_conteudo></pag_conteudo></a>
+    <!--<a href="" class="add_conteudo"><img src="../../imgs/icons/add.png"></a>-->
+</nav>
+<!--<div id="edit_conteudo"></div>-->
+<div id="del_conteudo">Deletado</div>
+<div id="edit_conteudo">
+    <div class="fechar_campos">[x]</div>
+    <form method="post" action="../../admin/conteudos/home/request" enctype="multipart/form-data">;
+        <div class="edit_top">
+            <input type="hidden" value="salvar" id="acao" name="acao">
+            <input name="f_id" id="f_id" type="hidden" value="">
+            <div class="img_box img_ref_box">
+                <input id="filesref" class="img_file img_ref_box" type="file" name="i_e">
+                <img id="filesref_image" class="img_preview img_ref_box" src="../../imgs/conteudo/<img_ref></img_ref>">
+            </div>
+            
+            <div class="edit_names">
+                <label>Nome: </label>
+                <input type="text" name="f_nome" /><br>
+                <label>Referencia: </label>
+                <input type="text" name="f_ref"/><br>
+                <label>P&aacute;gina: </label>
+                <input type="text" readonly="true" id="f_pag" name="f_pag" value="<pag_conteudo></pag_conteudo>"/><br>
+                <label>Link: </label>
+                <input type="text" name="f_link" /><br>   
+                <label>Modelo: </label>
+                <select name="f_model" class="s_models">
+                    <!--<select_models></select_models>-->
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                </select>
+            </div>
+            
+        </div>
+        <div class="edit_modelo" class="vermelho">
+            <div class="edit_esq">
+                <!--<img class="img_esq" src="../../imgs/conteudo/<img_ref></img_ref>">-->
+                <div class="img_box">
+                    <input id="files1" class="img_file" type="file" name="i_e">
+                    <img id="files1_image" class="img_preview" src="../../imgs/conteudo/<img_left></img_left>">
+                </div>
+                <textarea class="t_esq" name="f_e" ><text_left></text_left></textarea>
+            </div>
+            <div class="edit_cen">
+                <!--<img class="img_cen" src="../../imgs/conteudo/<img_ref></img_ref>">-->
+                <div class="img_box">
+                    <input id="files2" class="img_file" type="file" name="i_c">
+                    <img id="files2_image" class="img_preview" src="../../imgs/conteudo/<img_center></img_center>">
+                </div>
+                <textarea class="t_cen" name="f_c" ><text_center></text_center></textarea>
+            </div>
+            <div class="edit_dir">
+                <!--<img class="img_dir" src="../../imgs/conteudo/<img_ref></img_ref>">-->
+                <div class="img_box">
+                    <input id="files3" class="img_file" type="file" name="i_d">
+                    <img id="files3_image" class="img_preview" src="../../imgs/conteudo/<img_right></img_right>">
+                </div>
+                <textarea class="t_dir" name="f_d" ><text_right></text_right></textarea>
+            </div>
+        </div>
+        <input class="salvar" type="submit" value="Salvar">
+    </form>
+</div>
+
+<table><thead>
+    <td>C_nome</td>
+    <td>C_pag</td>
+    <td>C_ref</td>
+    <td>C_modelo</td>
+    <!--<td>C_conteudo</td>-->
+    <!--<td>C_conteudo2</td>-->
+    <!--<td>C_img_ref</td>-->
+    <!--<td>C_img</td>-->
+    <!--<td>C_img2</td>-->
+    <td>A&ccedil;&atilde;o</td>
+</thead>
+
+
+
+<conteudo_tabela></conteudo_tabela>
+</table>

@@ -1,0 +1,43 @@
+@charset "iso-8859-1";
+
+body {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 12px;
+	background: #0000AD;
+	color: #FFF;	
+}
+h1 {
+	width: 500px;
+	margin: 20px auto;
+	text-align: center;
+	background: #FFF;
+	color: #0000AD;
+	padding: 10px;
+}
+a {
+	color: #FFF;
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+	color: #FFF;
+}
+a:hover {
+	text-decoration: underline;
+	color: #FFF;
+}
+a:active {
+	text-decoration: none;
+	color: #FFF;
+}
+#erro {
+	width: 750px;
+	margin: auto;
+}
+#links {
+	text-align: center;
+	clear: both;	
+}
+.continuar {
+	float: right;	
+}

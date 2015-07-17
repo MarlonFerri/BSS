@@ -1,0 +1,52 @@
+@charset "iso-8859-1";
+
+* {
+	margin: 0;
+	padding: 0;
+}
+img {
+	border: 0;
+}
+body {
+	color: #000;
+	font-size: 12px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+	display: none;
+}
+table {
+	display: table;
+}
+ul li {
+	list-style: none;
+	list-style-type: none;
+}
+fieldset {
+	padding: 10px;	
+}
+legend {
+	padding: 5px;	
+}
+.quebraPaginaImpressao {
+	page-break-after: always;
+}
+.sombraTexto {
+	text-shadow: 1px 1px 1px #000;
+}
+.textfield {
+	border: 1px solid #ccc;
+	padding: 3px;
+	font-size:11px;
+	font-family: Tahoma, Geneva, sans-serif;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	color: #000;
+}
+.textfield:hover, .textfield:focus {
+	border: 1px solid #000;
+}
+label.error {
+	color: #F00;
+	padding-left: 5px;
+}

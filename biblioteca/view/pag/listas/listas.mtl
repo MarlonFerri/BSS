@@ -1,0 +1,22 @@
+<div class="colun" id="col_user">
+    Nome: <?php echo $this->user_dados->user_nome;?>
+    
+</div>
+<div class="colun" id="col_mid">
+    <a class="add_lista" href="#">add Lista</a><br><br>
+    <?php
+        $texto = stripLetters($this->listas_user);
+        echo $texto;
+    ?>
+    <div id="resultado"></div>
+</div>
+<div class="colun" id="col_alertas"></div>
+<div id="menu_inf">
+    <ul>
+        <li><a href="<?php echo URL;?>/start/<?php echo $this->user_dados->id_user; ?>/">Home</a></li>
+        <li><a href="<?php echo URL;?>/listas/<?php echo $this->user_dados->id_user; ?>/">Listas de tarefas</a></li>
+        <li><a href="<?php echo URL;?>/objetivos/<?php echo $this->user_dados->id_user; ?>/">Objetivos e metas</a></li>
+    </ul>
+    
+</div>
+

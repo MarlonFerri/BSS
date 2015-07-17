@@ -1,0 +1,22 @@
+/* 
+    Document   : boxContentHome
+    Created on : 18/02/2013, 16:48:46
+    Author     : Marlon
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+body{
+    margin: 0px auto;
+    text-align: center;
+}
+
+#content_box{
+    width: 400px;
+    background: red;
+    margin: 0px auto;
+    color: white;
+}

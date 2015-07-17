@@ -1,0 +1,46 @@
+<div id="all_admin">
+<menu>
+    <ul>
+        <li><a href="<?php echo URL;?>/admin/home/">Home</a></li>
+        <li><a href="<?php echo URL;?>/admin/paginas/">P&aacute;ginas</a>
+            <ul>
+                <li><a href="<?php echo URL;?>/admin/paginas/home">Home</a></li>
+                <li><a href="<?php echo URL;?>/admin/paginas/login">Login</a></li>
+                <li><a href="<?php echo URL;?>/admin/paginas/contato">contato</a></li>
+                <li><a href="<?php echo URL;?>/admin/paginas/suporte">Suporte</a></li>
+                <li><a href="<?php echo URL;?>/admin/paginas/start">Start</a></li>
+                <li><a href="<?php echo URL;?>/admin/paginas/programa">O programa</a></li>
+                <li><a href="<?php echo URL;?>/admin/paginas/listas">Listas</a></li>
+                <li><a href="<?php echo URL;?>/admin/paginas/objetivos">Objetivos</a></li>
+            </ul>
+        </li>
+        <li><a href="<?php echo URL;?>/admin/conteudos/">Conte&uacute;dos espec&iacute;ficos</a>
+            <ul>
+                <li><a href="<?php echo URL;?>/admin/conteudos/home">Home</a></li>
+                <li><a href="<?php echo URL;?>/admin/conteudos/quem_somos">Quem somos</a></li>
+                <li><a href="<?php echo URL;?>/admin/conteudos/projeto">O projeto</a></li>
+                <li><a href="<?php echo URL;?>/admin/conteudos/start">Start</a></li>
+                
+            </ul>
+        </li>
+        <li><a href="<?php echo URL;?>/admin/usuarios/">Usu&aacute;rios</a></li>
+        <li><a href="<?php echo URL;?>/admin/emails/">Emails</a>
+            <ul>
+                <li><a href="<?php echo URL;?>/admin/emails/confirmacao">Confirma&ccedil;&atilde;o</a></li>
+                <li><a href="<?php echo URL;?>/admin/emails/recuperar">Recuperar senha</a></li>
+                <li><a href="<?php echo URL;?>/admin/emails/afastamento">Afastamento</a></li>
+                <li><a href="<?php echo URL;?>/admin/emails/vencendo">Atividade vencendo</a></li>
+                <li><a href="<?php echo URL;?>/admin/emails/vencida">Atividade vencida</a></li>
+                
+            </ul>
+        </li>
+        <li><a href="<?php echo URL;?>/admin/textos/">Textos e l&iacute;nguas</a></li>
+        <li><a href="<?php echo URL;?>/admin/estatisticas/">Estat&iacute;sticas</a></li>
+    </ul>
+</menu>
+    
+    <div id="content_admin">
+        
+        <?php echo $this->content;?>
+    </div>
+</div>

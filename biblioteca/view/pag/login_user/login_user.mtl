@@ -1,0 +1,14 @@
+<h2>Erro ao tentar fazer login</h2>
+<form name="login_form" method="POST" id="login_form" action="<?php echo URL;?>/login_user">
+            <div>
+                <label>Login: </label><br>
+                <label>Senha: </label>
+            </div>
+            <div>
+                <input type="text" name="login_bss" id="login"><br>
+                <input type="password" name="senha_bss" id="senha">
+                <input class="botton" type="submit" value="Entrar">
+            </div>
+        </form>
+        <a href="<?php echo URL;?>/registro_user" target="_self">Registrar</a> | 
+        <a href="" target="_self">Esqueci minha senha</a>

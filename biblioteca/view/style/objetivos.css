@@ -1,0 +1,59 @@
+#col_mid div{
+    width: 200px;
+    min-height: 100px;
+}
+#col_mid{
+    min-height: 5000px;
+}
+#d1{
+    background: red;
+    float: left;
+}
+#d2{
+    background: blue;
+    float: left;
+}
+#d3{
+    background: gold;
+    float: left;
+}
+#d4{
+    background: green;
+    float: left;
+}
+#d5{
+    background: grey;
+    float: left;
+}
+#d6{
+    background: aqua;
+    float: left;
+}
+#d7{
+    background: chocolate;
+    float: left;
+}
+#d8{
+    background: white;
+    float: left;
+}
+#m1,#m2,#m3{
+    width: 100px;
+    height: 70px;
+    /*position: absolute;*/
+    background: url('../../../imgs/balao.png') #FF6;
+    margin-left: 15px;
+    margin-top: -5px;
+    color: black;
+}
+#m1{
+/*    top: 100px;
+    left: 640px;*/
+    
+}
+.men_a img{
+    top: 0px;
+    right: 0px;
+    text-align: right;
+    position: relative;
+}

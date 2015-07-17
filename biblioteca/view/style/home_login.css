@@ -1,0 +1,211 @@
+/* 
+    Document   : home
+    Created on : 24/11/2012, 14:08:52
+    Author     : PC
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+#content{
+    font-size: 18px;
+    font-family: Arial,Helvetica,sans-serif;
+}
+#top_home, #mid_home, #bot_home, #bot_face{
+    float: left;
+}
+#top_home{
+    width: 100%;
+    height: 320px;
+    margin-top: 40px;
+    
+}
+#top_home div{
+    margin-bottom: 33px;
+    text-align: center;
+}
+#top_home p{
+    text-shadow: #555 1px 1px 1px;
+}
+#mid_home{
+    text-align: center;
+    min-height: 10px;
+    
+}
+#mid_home div{
+    float: left;
+    text-align: left;
+}
+#enters{
+    margin-left: 365px;
+    width: 470px;
+}
+#enters input{
+    width: 214px;
+    padding-left: 8px;
+    height: 35px;
+    border: #005B7F 3px solid;
+    border-radius: 9px;
+    margin-bottom: 15px;
+    color: #69A5C5;
+    font-size: 18px;
+}
+#returns{
+    width: 365px;
+    height: 141px;
+/*    background: red;*/
+}
+#returns div{
+    margin-left: 8px;
+    width: 357px;
+    height: 50px;
+    font-size: 14px;
+    color: red;
+    line-height: 50px;
+}
+#returns div p{
+    /*color: #409FC1;*/
+    color: #EB8B11;
+    text-shadow: -0.08em -0.08em #183E4B;
+    /*text-shadow: 0.08em -0.08em red;*/
+    /*text-shadow: -0.1em -0.1em #8CC7DD;*/
+    /*text-shadow: -1px -1px #aa6, 1px 1px #333;*/
+}
+#confirms{
+    margin-top: 24px;
+    width: 100%;
+    text-align: center !important;
+    font-size: 14px;
+/*    background: green;*/
+}
+#confirms span{
+    
+}
+#confirms a{
+    color: #72D0F2;
+    text-decoration: none;
+}
+#confirms a:hover{
+    text-decoration: underline;
+}
+#confirms a:visited{
+    color: #72D0F2;
+    text-decoration: none;
+}
+.botao{
+    width: 174px;
+    height: 28px;
+    border: #005B7F 3px solid;
+    border-radius: 9px;
+    background: url('../../../imgs/bg_bt.png');
+    color: #FFF;
+    font-size: 14px;  
+    margin-bottom: 7px;
+}
+.botao_d{
+    width: 174px;
+    height: 28px;
+    border: #005B7F 3px solid;
+    border-radius: 9px;
+    background: url('../../../imgs/bg_bt.png');
+    color: #bbb;
+    font-size: 14px;
+    margin-bottom: 7px;
+}
+#bot_home{
+    min-height: 100px;
+    margin-top: 40px;
+    margin-bottom: 45px;
+}
+#bot_home div{
+    float: left;
+}
+.bot_1,.bot_2,.bot_3{
+    width: 375px;
+    height: 106px;
+    text-align: left;
+    padding-left: 15px;
+    padding-top: 10px;
+    border-radius: 10px;
+}
+.bot_1{
+    background: url('../../../imgs/bg_q3.png');
+}
+.bot_2{
+    background: url('../../../imgs/bg_q4.png');
+}
+.bot_3{
+    background: url('../../../imgs/bg_q2.png');
+}
+#bot_home div h3{
+    color: white;
+    font-size: 18px;
+    text-shadow: 1px 1px 1px #555;
+}
+#bot_home div p{
+    text-shadow: 1px 1px 1px #555;
+}
+#bot_home div span{
+    color: #fffc00;
+    font-size: 30px;
+}
+#bot_home img{
+    text-align: right;
+    float: right;
+    margin-top: 30px;
+    margin-right: 5px;
+}
+.space_bot{
+    width: 15px;
+    height: 40px;
+    
+}
+
+
+#bot_face{
+    width: 240px;
+    height: 111px;
+    margin-left: 480px;
+    text-align: left;
+    /*background: red;*/
+    /*margin-bottom: 500px;*/
+}
+#bot_face div{
+    float: left;
+}
+
+#bot_face img{
+    text-align: left;
+    float: left;
+    margin-right:  7px;
+}
+
+#bot_face a{
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+#bot_face a:hover{
+    color: white;
+    text-decoration: underline;
+}
+#bot_face a:visited{
+    color: white;
+    text-decoration: underline;
+}
+
+#bot_face span{
+    font-size: 18px !important;
+    color: #48BAE4;
+    
+}
+#i_face{
+    padding-top: 3px;
+    width: 35px;
+}
+#t_face{
+    margin-left: 5px;
+    width: 200px;
+}

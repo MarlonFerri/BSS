@@ -1,0 +1,29 @@
+
+<div id="top_home">        
+    <div ><img src="<?php echo URL;?>/imgs/logo5.png"></div>
+    <div><p>O momento para realizar os seus sonhos est&aacute; pr&oacute;ximo.<br>
+            Registre-se e fique por dentro de todas as &uacute;ltimas novidades!</p></div>
+</div>
+
+
+<div id="mid_home">
+    <h2>Houve um erro no envio de seu email de confirmação!</h2><br><br>
+    Favor verefique o endereço de email informado. Será necessário preencher novamente o formulário de registro.</h2>
+</div>
+
+
+<div id="bot_home">
+    
+</div>
+<div id="bot_face">
+
+    <a href="http://www.facebook.com.br/BlueSkyToSmile" target="blank">
+        <div id="i_face"><img src="<?php echo URL;?>/imgs/face_small.png"></div>
+        <!--<img src="imgs/face_small.png">-->
+        <div id="t_face">
+        <span>Saiba mais tamb&eacute;m pelo</span>
+        facebook.com/BlueSkyToSmile
+        </div>
+    </a>
+
+</div>

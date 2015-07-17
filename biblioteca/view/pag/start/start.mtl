@@ -1,0 +1,76 @@
+<div class="colun" id="col_user">Nome: <?php echo $this->user_dados->user_nome;?>
+<!--    <p>algo apenas</p>
+    <p>algo apenas</p>
+    <p>algo apenas</p>
+    <p>algo apenas</p>
+    <p>algo apenas</p>
+    <p>algo apenas</p>
+    <p>algo apenas</p>
+    <p>algo apenas</p>
+    <p>algo apenas</p>
+    <p>algo apenas</p>
+    <p>algo apenas</p>
+    <p>algo apenas</p>
+    <p>algo apenas</p>
+    <p>algo apenas</p>
+    <p>algo apenas</p>
+    <p>algo apenas</p>
+    <p>algo apenas</p>
+    <p>algo apenas</p>
+    <p>algo apenas</p>
+    <p>algo apenas</p>
+    <p>algo apenas</p>
+    <p>algo apenas</p>
+    <p>algo apenas</p>
+    <p>algo apenas</p>
+    <p>algo apenas</p>
+    <p>algo apenas</p>
+    <p>algo apenas</p>
+    <p>algo apenas</p>
+    <p>algo apenas</p>
+    <p>algo apenas</p>
+    <p>algo apenas</p>
+    <p>algo apenas</p>
+    <p>algo apenas</p>
+    <p>algo apenas</p>
+    <p>algo apenas</p>
+    <p>algo apenas</p>
+    <p>algo apenas</p>
+    <p>algo apenas</p>
+    <p>algo apenas</p>
+    <p>algo apenas</p>
+    <p>algo apenas</p>
+    <p>algo apenas</p>
+    <p>algo apenas</p>
+    <p>algo apenas</p>
+    <p>algo apenas</p>
+    <p>algo apenas</p>
+    <p>algo apenas</p>
+    <p>algo apenas</p>
+    <p>algo apenas</p>
+    <p>algo apenas</p>
+    <p>algo apenas</p>
+    <p>algo apenas</p>
+    <p>algo apenas</p>
+    <p>algo apenas</p>-->
+</div>
+<div class="colun" id="col_mid">
+    <!--<div class="news_content">div inicial 15</div>-->
+    
+</div>
+<div class="colun" id="col_alertas"></div>
+<div name="adf" id="menu_inf">
+    <ul>
+        <li><a href="<?php echo URL;?>/start/<?php echo $this->user_dados->id_user; ?>/">Home</a></li>
+        <li><a href="<?php echo URL;?>/listas/<?php echo $this->user_dados->id_user; ?>/">Listas de tarefas</a></li>
+        <li><a href="<?php echo URL;?>/objetivos/<?php echo $this->user_dados->id_user; ?>/">Objetivos e metas</a></li>
+        <li><a href="<?php echo URL;?>/logout_user/<?php echo $this->user_dados->id_user; ?>/">Sair</a></li>
+    </ul>
+    
+</div>
+<div id="popmenu"><ul>
+        <li><a href="<?php echo URL;?>/start/<?php echo $this->user_dados->id_user; ?>/">Home</a></li>
+        <li><a href="<?php echo URL;?>/listas/<?php echo $this->user_dados->id_user; ?>/">Listas de tarefas</a></li>
+        <li><a href="<?php echo URL;?>/objetivos/<?php echo $this->user_dados->id_user; ?>/">Objetivos e metas</a></li>
+        <li><a href="<?php echo URL;?>/logout_user/<?php echo $this->user_dados->id_user; ?>/">Sair</a></li>
+    </ul></div>

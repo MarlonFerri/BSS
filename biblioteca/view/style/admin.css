@@ -1,0 +1,166 @@
+/* 
+    Document   : admin
+    Created on : 19/02/2013, 20:54:39
+    Author     : Marlon
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+body{
+    background: #FFF;
+}
+menu{
+    width: 100%;
+    height: 40px;
+    background: #D9E4EB;
+}
+/*----------------------------------------------------------------------------*/
+ul li{
+    float: left;
+    padding-right: 10px;
+    padding-left: 10px;
+    color: #094F69;
+    line-height: 40px;
+    position: relative;
+    /*display: inline;*/
+}
+ul ul{
+    display: none;
+    background: #094F69;
+}
+li ul li{
+    display: block;
+    float: none;
+    min-width: 140px;
+}
+li ul{
+    position: absolute;
+    left: 0px;
+    top: 40px;
+    display: none;
+}
+ul li:hover {
+    background: #094F69;
+    color: #FFF;    
+}
+ul li:hover a{
+    color: #fff;
+    text-decoration: none;
+}
+ul li:hover ul{
+    display: block;
+}
+ul a:visited{
+    color: #094F69;
+}
+
+/*----------------------------------------------------------------------------*/
+table{
+    width: 100%;
+    margin-top: 20px;
+}
+
+thead{
+    background: #ccc;
+}
+.blue{
+    background: #D9E4EB;
+}
+.red{
+    background: #f66;
+}
+
+#add_conteudo{
+    width: 100%;
+    text-align: left;
+    background: #EEE;
+    float: left;
+    margin: 10px 0 20px 0;
+}
+.salvar{
+    margin-top: 50px;
+    margin-left: 20px;
+    width: 50%;
+    background: #094F69;
+    color: #FFF;
+}
+
+.metade{
+    width: 50%;
+    float: left;
+}
+.b_add_conteudo, .b_edit_conteudo, .b_edit_imagem, .b_delete_conteudo{
+    cursor: pointer;
+}
+#del_conteudo{
+    width: 90%;
+    background: #f66;
+    margin: 0px auto;
+    height: 40px;
+    color: white;
+}
+
+#del_conteudo, #add_conteudo, #edit_conteudo{
+    position: relative;
+    margin: 0px auto;
+}
+.fechar_campos{
+    position: absolute;
+    right: 0px;
+    width: 15px;
+    height: 15px;
+    background: #f66;
+}
+
+#edit_conteudo{
+    width: 90%;
+    margin: 0px auto;
+    background: #D9E4EB;
+    position: relative;    
+}
+
+.edit_esq, .edit_dir, .edit_cen{
+    width: 278px;
+    margin-left: 20px;
+    margin-right: 5px;
+    float: left;
+}
+
+
+
+#edit_conteudo{
+    width: 100%;
+}
+
+
+.img_file{
+    background: #002b80;
+    border: 1px #000 dashed; 
+    display: none;
+}
+.img_preview{
+    min-height: 100px;
+    width: 276px;
+    background: #a0c3d5;
+    
+}
+.img_box{
+    width: 278px;
+    height: 100px;    
+    margin-bottom: 10px;
+    margin-top: 10px;
+    overflow: hidden;
+}
+textarea{
+    width: 287px;
+    height: 417px;
+    border: none;
+}
+.img_ref_box{
+    width: 308px !important;
+    height: 154px !important;
+    background: #a0c3d5;
+}
